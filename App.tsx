@@ -1,5 +1,4 @@
-import { SafeAreaView } from 'react-native';
-
+import { SafeAreaView, StyleSheet } from 'react-native';
 import DrawCreator from './src/DrawCreator';
 
 const App = () => {
@@ -10,8 +9,8 @@ const App = () => {
   );
 };
 
-const styles = {
+const styles = StyleSheet.create({
   root: { flex: 1, backgroundColor: 'blue' },
-};
+});
 
 export default App;
